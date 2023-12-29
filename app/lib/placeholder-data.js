@@ -72,7 +72,7 @@ const customers = [
     image_url: '/customers/Phuchit-Phukyong.jpg',
   },
   {
-    id: '13d07535-h67f-4157-a011-f8d2ef4e0cbb',
+    id: '13d07535-B59G-4157-A011-F8D2EF4E0CBB', // แก้ UUID ที่ผิดพลาดนี้
     name: 'Sarawut Sangsuwan',
     email: 'sarawutsangsuwan@gmail.com',
     image_url: '/customers/Sarawut-Sangsuwan.jpg',
