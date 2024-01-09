@@ -87,7 +87,7 @@ const customers = [
     id: '410544b2-4014-4271-9855-fec4b6a6442a',
     name: 'Apinya Limmang',
     email: 'apinyalimmang@gmail.com',
-    image_url: '/customers/Apinya-Limmang.jpg',
+    image_url: '/customers/Anchalee-Klinchom.jpg',
   },
   {
     id: '410544b2-4015-4271-9855-fec4b6a6442a',
