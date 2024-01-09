@@ -1,10 +1,11 @@
-
 export type User = {
   id: string;
   name: string;
   email: string;
   password: string;
   image_url: string;
+  role: 'Admin' | 'Account' | 'Sell' | 'User';
+  date: string;
 };
 
 export type Customer = {
@@ -18,13 +19,14 @@ export type Invoice = {
   id: string;
   customer_id: string;
   amount: number;
-  date: string;
   status: 'pending' | 'paid';
+  date: string;
 };
 
 export type Revenue = {
   month: string;
   revenue: number;
+  date: string;
 };
 
 export type LatestInvoice = {
@@ -58,6 +60,7 @@ export type CustomersTableType = {
   total_invoices: number;
   total_pending: number;
   total_paid: number;
+  date: string;
 };
 
 export type FormattedCustomersTable = {
@@ -68,6 +71,7 @@ export type FormattedCustomersTable = {
   total_invoices: number;
   total_pending: string;
   total_paid: string;
+  date: string;
 };
 
 export type CustomerField = {
@@ -80,4 +84,22 @@ export type InvoiceForm = {
   customer_id: string;
   amount: number;
   status: 'pending' | 'paid';
+};
+
+
+export type UserTableType = {
+  id: string;
+  name: string;
+  email: string;
+  image_url: string;
+  role: 'Admin' | 'Account' | 'Sell' | 'User';
+  date: string;
+};
+export type FormattedUsersTable = {
+  id: string;
+  name: string;
+  email: string;
+  image_url: string;
+  role: 'Admin' | 'Account' | 'Sell' | 'User';
+  date: string;
 };
